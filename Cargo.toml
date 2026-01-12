@@ -1,4 +1,4 @@
 [workspace]
 name = "my-rust-patterns"
-members = ["bin/rust-native"]
+members = ["bin/native-patterns", "bin/async-patterns"]
 resolver = "3"
