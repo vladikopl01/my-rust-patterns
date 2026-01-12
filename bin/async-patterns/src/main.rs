@@ -1,7 +1,6 @@
 #![allow(dead_code)]
 
 mod futures_stream_iter;
-mod lazylock_config_vars;
 mod tokio_select_first;
 mod tokio_select_keep_alive;
 mod tokio_spawn_tasks;
