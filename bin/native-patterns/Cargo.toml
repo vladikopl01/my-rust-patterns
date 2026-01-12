@@ -3,4 +3,9 @@ name = "native-patterns"
 version = "0.1.0"
 edition = "2024"
 
+# Explicit module inclusion mock
+[features]
+default = ["database"]
+database = []
+
 [dependencies]
